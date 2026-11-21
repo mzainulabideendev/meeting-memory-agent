@@ -8,6 +8,8 @@
 
 **138 transcripts · 35 teams · 676,745 words · 100% verbatim citations**
 
+![Results](results_screenshot.svg)
+
 </div>
 
 ---
@@ -438,6 +440,33 @@ python -m pytest tests/integration/ # 9 corpus + regression tests
 > Both improvements and regressions are reported honestly in
 > `outputs/evaluation_report.md` and `outputs/final_delivery_report.md`.
 
+## Results snapshot
+
+![Results](results_screenshot.svg)
+
+### Real measured data
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Transcripts ingested | 138 | `outputs/dataset_report.json` |
+| Teams covered | 35 | `outputs/dataset_report.json` |
+| Total words | 676,745 | `outputs/dataset_report.json` |
+| Indexed chunks | 1,594 | `outputs/dataset_report.json` |
+| Chunks per meeting | 11.55 | computed |
+| Ingestion time | 116.8 s (0.85 s/meeting) | `outputs/benchmark.json` |
+| Storage — Chroma | 58.6 MB | `outputs/benchmark.json` |
+| Storage — SQLite | 40.65 MB | `outputs/benchmark.json` |
+| Query latency (mean) | 2.24 s | `outputs/benchmark.json` |
+| Query latency (p50) | 1.06 s | `outputs/benchmark.json` |
+| Query latency (p95) | 13.94 s | `outputs/benchmark.json` |
+| Citation validity | 100% (110/110) | `outputs/citation_audit` |
+| Mean fact coverage | 68.9% (baseline 59.1%) | `outputs/evaluation_results.json` |
+| Decision-state accuracy | 72.7% (baseline 9.1%) | `outputs/evaluation_results.json` |
+| Meeting retrieval recall | 100% | `outputs/evaluation_results.json` |
+| Tests | 60 passed, 0 failed, 0 skipped | `pytest` |
+| Unsupported claim rate | 5.2% | `outputs/evaluation_results.json` |
+| Correct / Partial / Incorrect | 4 / 4 / 3 (of 11) | `outputs/evaluation_results.json` |
+
 ---
 
 ## Project structure
@@ -580,7 +609,7 @@ Open an issue on GitHub for bugs, questions or feature requests.
 
 <div align="center">
 
-**Built with ❤️ for the Catalist Agentic AI Intern Build Test**
+**Built by [mzainulabideendev](https://github.com/mzainulabideendev)**
 
 *All diagrams use Mermaid syntax — GitHub renders them natively.*
 

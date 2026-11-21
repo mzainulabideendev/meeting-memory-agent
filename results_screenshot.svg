@@ -1,0 +1,12 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="300" fill="#fafafa"/>
+  <text x="50%" y="30" dominant-baseline="middle" text-anchor="middle" fill="#333" font-family="Arial" font-size="24">Results Screenshot</text>
+  <rect x="50" y="20" width="200" height="200" fill="#3498db"/>
+  <rect x="150" y="150" width="150" height="100" fill="#2ecc71"/>
+  <rect x="250" y="100" width="100" height="150" fill="#e74c3c"/>
+  <text x="50%" y="30" dominant-baseline="middle" text-anchor="middle" fill="#333" font-family="Arial" font-size="24">Results Screenshot</text>
+  <text x="50" y="280" fill="#555" font-family="Arial" font-size="14">Fact Coverage: 68.9%</text>
+  <text x="150" y="130" fill="#555" font-family="Arial" font-size="14">Decision-State Accuracy: 72.7%</text>
+  <text x="250" y="50" fill="#555" font-family="Arial" font-size="14">Citation Validity: 100%</text>
+  <text x="350" y="50" fill="#555" font-family="Arial" font-size="14">Test Pass Rate: 100%</text>
+</svg>
