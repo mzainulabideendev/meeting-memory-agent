@@ -1,0 +1,150 @@
+{
+  "description": "Independent evaluation set. Written by hand after reading the TS3012 transcripts. Ground truth and quotations were verified against the original files; the agent never sees these answers.",
+  "team": "TS3012",
+  "questions": [
+    {
+      "question_id": "E01",
+      "question": "Which material did Team TS3012 confirm for the remote's case, and did that choice survive the final budget cuts?",
+      "ground_truth_answer": "The team confirmed rubber in TS3012c ('so we're definitely going for rubber') and the final design in TS3012d still used rubber for the cover and buttons.",
+      "relevant_meeting_ids": ["TS3012c", "TS3012d"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012c", "quote": "Okay. Okay, so we're definitely going for rubber."},
+        {"meeting_id": "TS3012d", "quote": "cover and buttons will be made of rubber, yellow colour, black components"}
+      ],
+      "expected_facts": ["rubber", "kept|still used|remained|survived|final"],
+      "expected_state_terms": ["kept|remained|still|final"],
+      "expected_temporal_interpretation": "A decision confirmed in meeting c is still present in the final meeting d; it is not superseded."
+    },
+    {
+      "question_id": "E02",
+      "question": "What power source did TS3012 settle on, and did they adopt the rechargeable option that was discussed?",
+      "ground_truth_answer": "They settled on regular batteries in TS3012c; rechargeable batteries were discussed but not adopted because a rechargeable module was not among the options.",
+      "relevant_meeting_ids": ["TS3012b", "TS3012c"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012c", "quote": "Okay, will just take regular batteries."},
+        {"meeting_id": "TS3012c", "quote": "it wasn't in the options, a rechargeable m module actually."}
+      ],
+      "expected_facts": ["regular batteries|normal batteries|basic batteries", "rechargeable", "not adopted|ruled out|wasn't in the options|no rechargeable"],
+      "expected_state_terms": ["regular batteries|normal batteries|basic batteries"],
+      "expected_temporal_interpretation": "Rechargeable was proposed in b, but the confirmed choice in c is non-rechargeable regular batteries."
+    },
+    {
+      "question_id": "E03",
+      "question": "How did TS3012's position on the LCD screen change between meetings b and d?",
+      "ground_truth_answer": "In TS3012b Speaker A wanted to lose the LCD because it was huge and consumed batteries; by TS3012c they considered including it, and in TS3012d it was kept while speech recognition was cut because about ninety percent of customers favoured an LCD.",
+      "relevant_meeting_ids": ["TS3012b", "TS3012c", "TS3012d"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012b", "quote": "I think we should lose the L_C_D_ screen, like you said."},
+        {"meeting_id": "TS3012c", "quote": "we should take it take it t to consideration to build an L_C_D_ screen in it"},
+        {"meeting_id": "TS3012d", "quote": "ninety percent who favour an L_C_D_ display, and only sixty percent that favour speech recognition"}
+      ],
+      "expected_facts": ["lcd|l_c_d_|screen", "include|included|keep|kept|retain|retained", "drop|dropped|lose|lost|considered|initially"],
+      "expected_state_terms": ["kept|included|retained|consider"],
+      "expected_temporal_interpretation": "The LCD moves from an explicitly rejected idea (b) to considered/included (c) and retained under budget pressure (d)."
+    },
+    {
+      "question_id": "E04",
+      "question": "When and why was speech recognition dropped from TS3012's final design?",
+      "ground_truth_answer": "It was dropped in the final meeting TS3012d because the full design cost seventeen euros against a permitted twelve and a half, and the LCD had stronger customer support (about ninety percent versus sixty percent).",
+      "relevant_meeting_ids": ["TS3012c", "TS3012d"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012d", "quote": "You have the total of seventeen Euros in production cost, which is higher than the twelve and a half that we are permitted to use."},
+        {"meeting_id": "TS3012d", "quote": "But ninety percent who favour an L_C_D_ display, and only sixty percent that favour speech recognition."}
+      ],
+      "expected_facts": ["speech recognition", "drop|dropped|removed|scrapped|cut", "budget|cost|12.50|twelve and a half|17|seventeen"],
+      "expected_state_terms": ["drop|dropped|removed|cut"],
+      "expected_temporal_interpretation": "Speech recognition was included in c but explicitly removed in d; the later state supersedes the earlier one."
+    },
+    {
+      "question_id": "E05",
+      "question": "What did TS3012 know about finances in meeting c, and what did the final costing in meeting d show?",
+      "ground_truth_answer": "In TS3012c they still lacked financial data; in TS3012d the costing showed seventeen euros against a twelve and a half euro budget, forcing them to drop speech recognition and the special colour.",
+      "relevant_meeting_ids": ["TS3012c", "TS3012d"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012c", "quote": "we did need some more data on finances, but w yeah we still don't have that apparently"},
+        {"meeting_id": "TS3012d", "quote": "You have the total of seventeen Euros in production cost, which is higher than the twelve and a half that we are permitted to use."}
+      ],
+      "expected_facts": ["17|seventeen", "12.50|twelve and a half", "speech recognition", "special colour|special color|colour|color"],
+      "expected_state_terms": ["drop|dropped|removed|cut"],
+      "expected_temporal_interpretation": "Missing information in c is resolved by new financial data in d, which changes the design."
+    },
+    {
+      "question_id": "E06",
+      "question": "What happened to TS3012's yellow colour decision when the final budget was applied?",
+      "ground_truth_answer": "Yellow had been agreed and Speaker C wanted a yellow remote, but in TS3012d the special yellow colour was removed for cost reasons; the base unit would be black with custom covers offered separately, while rubber was kept over yellow.",
+      "relevant_meeting_ids": ["TS3012c", "TS3012d"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012c", "quote": "I would take a yellow remote control."},
+        {"meeting_id": "TS3012d", "quote": "I had to take out the special colour I suppose."}
+      ],
+      "expected_facts": ["yellow", "special colour|special color|dropped|removed", "black|cover"],
+      "expected_state_terms": ["dropped|removed|lost|take out"],
+      "expected_temporal_interpretation": "An earlier colour preference is superseded by the final costed design."
+    },
+    {
+      "question_id": "E07",
+      "question": "What did TS3012 agree to build so a lost remote could be found, and was it still planned in the next meeting?",
+      "ground_truth_answer": "In TS3012b they agreed to add something to the remote to find it, and by TS3012c they said they were going to implement the beep and flash feature to recover the remote.",
+      "relevant_meeting_ids": ["TS3012b", "TS3012c"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012b", "quote": "we agree on the the part that we need to get something on the on the remote to find it somewhere"},
+        {"meeting_id": "TS3012c", "quote": "we are going to implement the beep and the flash thing to recover your remote"}
+      ],
+      "expected_facts": ["beep", "flash", "find|locate|recover"],
+      "expected_state_terms": ["implement|planned|agreed"],
+      "expected_temporal_interpretation": "Agreement in b is carried forward and restated as an implementation plan in c."
+    },
+    {
+      "question_id": "E08",
+      "question": "Which age group did TS3012 target, and what evidence from earlier and later meetings supports that?",
+      "ground_truth_answer": "They targeted younger consumers; in TS3012b the market was described as younger than forty, and in TS3012c Speaker A confirmed they were definitely focusing on younger people because that was the main goal.",
+      "relevant_meeting_ids": ["TS3012b", "TS3012c"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012b", "quote": "we are looking at the market for the age uh younger than forty"},
+        {"meeting_id": "TS3012c", "quote": "We're definitely focussing on the younger people, 'cause that was our main goal."}
+      ],
+      "expected_facts": ["young|younger", "under forty|target group|target audience|main goal"],
+      "expected_state_terms": ["young|younger"],
+      "expected_temporal_interpretation": "The target group is consistent across b and c."
+    },
+    {
+      "question_id": "E09",
+      "question": "When TS3012 had to cut costs in the final meeting, what disagreement arose about rubber versus yellow, and how was it resolved?",
+      "ground_truth_answer": "Speaker C suggested losing rubber and taking plastic, but Speaker A favoured keeping rubber because it had more advantages than the yellow colour; the outcome was to keep rubber and drop the special yellow colour.",
+      "relevant_meeting_ids": ["TS3012c", "TS3012d"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012d", "quote": "Or say let's lose rubber, take plastic."},
+        {"meeting_id": "TS3012d", "quote": "I'm in favour of keeping the rubber, because it has more more advantages than the colour yellow has."}
+      ],
+      "expected_facts": ["rubber", "yellow|colour|color", "keep|kept|drop|dropped|plastic"],
+      "expected_state_terms": ["keep|kept"],
+      "expected_temporal_interpretation": "A trade-off discussed in d resolves in favour of rubber; yellow is superseded as a base option."
+    },
+    {
+      "question_id": "E10",
+      "question": "Who committed to finding out about rechargeable batteries for TS3012, and what did the team decide about them in the next meeting?",
+      "ground_truth_answer": "Speaker C, the Industrial Designer, said he would try to find that out in TS3012b; in TS3012c the team took regular batteries because a rechargeable module was not among the options.",
+      "relevant_meeting_ids": ["TS3012b", "TS3012c"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012b", "quote": "Yes. I'm going to try to find that out."},
+        {"meeting_id": "TS3012c", "quote": "it wasn't in the options, a rechargeable m module actually."}
+      ],
+      "expected_facts": ["speaker c|industrial designer", "rechargeable", "regular batteries|normal batteries|basic batteries|not in the options|wasn't in the options"],
+      "expected_state_terms": ["rechargeable"],
+      "expected_temporal_interpretation": "A commitment in b is resolved in c when the option is ruled out and regular batteries are chosen."
+    },
+    {
+      "question_id": "E11",
+      "question": "What sales price was TS3012 working with in meeting b, and what production budget constrained the final design in meeting d?",
+      "ground_truth_answer": "In TS3012b the team was going for a twenty five euro sales price; in TS3012d the production budget was twelve and a half euros per remote.",
+      "relevant_meeting_ids": ["TS3012b", "TS3012d"],
+      "supporting_quotes": [
+        {"meeting_id": "TS3012b", "quote": "We are going for twenty five Euros sales price"},
+        {"meeting_id": "TS3012d", "quote": "we have a budget of twelve fifty per product"}
+      ],
+      "expected_facts": ["twenty five|25", "12.50|twelve and a half|twelve fifty", "production|budget"],
+      "expected_state_terms": ["budget|production"],
+      "expected_temporal_interpretation": "Two different figures are both valid but refer to different things: sales price in b and production budget in d."
+    }
+  ]
+}

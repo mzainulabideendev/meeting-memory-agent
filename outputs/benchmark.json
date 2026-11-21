@@ -1,0 +1,155 @@
+{
+  "measured_at": "2026-11-19",
+  "corpus": {
+    "meetings": 138,
+    "words": 676745,
+    "chunks": 1594,
+    "chunk_tokens": 929440,
+    "avg_chunks_per_meeting": 11.55
+  },
+  "ingestion": {
+    "total_seconds": 116.8,
+    "embedding_seconds": 87.17,
+    "semantic_extraction_seconds": 15.94,
+    "seconds_per_meeting": 0.85,
+    "words_per_second": 5794.1
+  },
+  "query": {
+    "questions_measured": 11,
+    "mean_latency_seconds": 2.24,
+    "p50_latency_seconds": 1.06,
+    "p95_latency_seconds": 13.94,
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "storage": {
+    "chroma_bytes": 58597364,
+    "chroma_mb": 58.6,
+    "sqlite_bytes": 40648704,
+    "sqlite_mb": 40.65,
+    "bytes_per_meeting": 719174
+  },
+  "measured_cost": {
+    "embedding_api_cost_usd": 0.0,
+    "extraction_api_cost_usd": 0.0,
+    "query_reasoning_api_cost_usd": 0.0,
+    "total_api_cost_usd": 0.0,
+    "note": "This run used local sentence-transformer embeddings and no paid LLM API calls."
+  },
+  "projection_1000_meetings": {
+    "target_meetings": 1000,
+    "scale_factor": 7.246,
+    "projected_words": 4903949,
+    "projected_tokens": 6735072,
+    "projected_chunks": 11550,
+    "embedding": {
+      "local_api_cost_usd": 0.0,
+      "openai_embedding_3_small_api_cost_usd": 0.13470144,
+      "projected_seconds_cpu": 631.7,
+      "assumption": "linear scaling of measured CPU embedding throughput; no parallelism assumed"
+    },
+    "extraction": {
+      "projected_input_tokens": 6735072,
+      "projected_output_tokens": 538805,
+      "gemini_api_cost_usd": 0.89,
+      "assumption": "one extraction pass over every chunk with Gemini 2.0 Flash; output assumed to be 8% of input tokens. This run used deterministic rule extraction, so this line is a projection, not a measured API bill."
+    },
+    "query_time": {
+      "assumed_input_tokens_per_question": 6000,
+      "assumed_output_tokens_per_question": 400,
+      "gemini_api_cost_per_question_usd": 0.0008,
+      "gemini_api_cost_per_1000_questions_usd": 0.76
+    },
+    "ingestion": {
+      "projected_seconds_single_process": 846.4,
+      "projected_hours_single_process": 0.24,
+      "assumption": "linear from measured local CPU run; no batching across processes, no cache"
+    },
+    "storage": {
+      "measured_bytes_per_meeting_vector": 424619,
+      "measured_bytes_per_meeting_sqlite": 294556,
+      "projected_vector_gb": 0.42,
+      "projected_sqlite_gb": 0.29
+    },
+    "pricing": {
+      "as_of": "2026-11-19",
+      "gemini_2_0_flash_input_usd_per_million": 0.1,
+      "gemini_2_0_flash_output_usd_per_million": 0.4,
+      "text_embedding_3_small_usd_per_million": 0.02,
+      "sources": {
+        "gemini_2_0_flash": "https://ai.google.dev/gemini-api/docs/pricing (standard tier, accessed 2026-11-19)",
+        "openai_text_embedding_3_small": "https://developers.openai.com/api/docs/models/text-embedding-3-small (accessed 2026-11-19)"
+      }
+    },
+    "caveats": [
+      "This is a linear projection from 138 meetings, not a production benchmark.",
+      "LLM extraction would be parallelised and retried in production; latency and cost change accordingly.",
+      "Model prices change; the table is dated and configurable.",
+      "Local embedding cost excludes hardware and electricity.",
+      "At 10,000 meetings, sharded vector indexes, FTS partitioning, incremental re-embedding and queue-based ingestion are required."
+    ]
+  },
+  "projection_10000_meetings": {
+    "target_meetings": 10000,
+    "scale_factor": 72.464,
+    "projected_words": 49039492,
+    "projected_tokens": 67350724,
+    "projected_chunks": 115507,
+    "embedding": {
+      "local_api_cost_usd": 0.0,
+      "openai_embedding_3_small_api_cost_usd": 1.3470144800000001,
+      "projected_seconds_cpu": 6316.9,
+      "assumption": "linear scaling of measured CPU embedding throughput; no parallelism assumed"
+    },
+    "extraction": {
+      "projected_input_tokens": 67350724,
+      "projected_output_tokens": 5388057,
+      "gemini_api_cost_usd": 8.89,
+      "assumption": "one extraction pass over every chunk with Gemini 2.0 Flash; output assumed to be 8% of input tokens. This run used deterministic rule extraction, so this line is a projection, not a measured API bill."
+    },
+    "query_time": {
+      "assumed_input_tokens_per_question": 6000,
+      "assumed_output_tokens_per_question": 400,
+      "gemini_api_cost_per_question_usd": 0.0008,
+      "gemini_api_cost_per_1000_questions_usd": 0.76
+    },
+    "ingestion": {
+      "projected_seconds_single_process": 8463.7,
+      "projected_hours_single_process": 2.35,
+      "assumption": "linear from measured local CPU run; no batching across processes, no cache"
+    },
+    "storage": {
+      "measured_bytes_per_meeting_vector": 424619,
+      "measured_bytes_per_meeting_sqlite": 294556,
+      "projected_vector_gb": 4.25,
+      "projected_sqlite_gb": 2.95
+    },
+    "pricing": {
+      "as_of": "2026-11-19",
+      "gemini_2_0_flash_input_usd_per_million": 0.1,
+      "gemini_2_0_flash_output_usd_per_million": 0.4,
+      "text_embedding_3_small_usd_per_million": 0.02,
+      "sources": {
+        "gemini_2_0_flash": "https://ai.google.dev/gemini-api/docs/pricing (standard tier, accessed 2026-11-19)",
+        "openai_text_embedding_3_small": "https://developers.openai.com/api/docs/models/text-embedding-3-small (accessed 2026-11-19)"
+      }
+    },
+    "caveats": [
+      "This is a linear projection from 138 meetings, not a production benchmark.",
+      "LLM extraction would be parallelised and retried in production; latency and cost change accordingly.",
+      "Model prices change; the table is dated and configurable.",
+      "Local embedding cost excludes hardware and electricity.",
+      "At 10,000 meetings, sharded vector indexes, FTS partitioning, incremental re-embedding and queue-based ingestion are required."
+    ]
+  },
+  "scale_recommendations_10000": [
+    "Shard Chroma collections by team or by 2,000-meeting buckets; query only relevant shards.",
+    "Partition SQLite FTS by corpus slice, or move FTS and metadata to Postgres with per-team indexes.",
+    "Ingest through a queue with idempotent, hash-based jobs; embed in parallel worker processes.",
+    "Cache query embeddings and frequent question analyses; reuse decision memory instead of re-extracting.",
+    "Store only evidence windows in prompts (top-k chunks), never whole meetings.",
+    "Add observability for retrieval recall, citation failure rate and extraction drift.",
+    "Run nightly temporal reconciliation rather than recomputing all supersession chains per query."
+  ],
+  "note": "1000/10000-meeting figures are linear projections from the measured 138-meeting run, not production benchmarks. See assumptions in each section."
+}

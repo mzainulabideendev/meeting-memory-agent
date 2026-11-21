@@ -1,0 +1,455 @@
+{
+  "answers": [
+    {
+      "question_id": "Q01",
+      "answer": "The retrieved transcripts show in TS3006d, Speaker C confirmed that: \"That was exactly my point. Like let's drop all the buttons, and just make one I mean we're gonna use the L_C_D_ screen anyway. So we'll just have to use it for everything.\"; in TS3006d, Speaker D rejected that: \"It s it saves us four Euros and it costs us two and a half. So let's see, we we drop the price by one and a half. But we still have thirteen left.\"; in TS3006d, Speaker D said that: \"It s it saves us four Euros and it costs us two and a half. So let's see, we we drop the price by one and a half.\".",
+      "citations": [
+        {
+          "meeting_id": "TS3006d",
+          "quote": "That was exactly my point. Like let's drop all the buttons, and just make one I mean we're gonna use the L_C_D_ screen anyway. So we'll just have to use it for everything."
+        },
+        {
+          "meeting_id": "TS3006d",
+          "quote": "It s it saves us four Euros and it costs us two and a half. So let's see, we we drop the price by one and a half. But we still have thirteen left."
+        },
+        {
+          "meeting_id": "TS3006d",
+          "quote": "It s it saves us four Euros and it costs us two and a half. So let's see, we we drop the price by one and a half."
+        }
+      ]
+    },
+    {
+      "question_id": "Q02",
+      "answer": "The retrieved transcripts show in ES2003a, Speaker A said that: \"Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you you can redesign the interface to your own\"; in ES2003c, Speaker C rejected that: \"For being strong and sturdy. So um if we want something strong and sturdy, I say stay with plastic or titanium, but if we go with spongy, we can stress that you can drop this as many times as you want, it doesn't matter, it's spongy material, it's not gonna break, you know. I just don't know how the L_E_D_ and the lights are gonna fit into a spongy material because it's not gonna be completely squeezable.\"; in the final meeting ES2003d, Speaker B rejected that: \"It's literally a case of whether or not this is correct. I'm not quite sure if they're I don't think they mean point five Euros per button.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2003a",
+          "quote": "Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you you can redesign the interface to your own"
+        },
+        {
+          "meeting_id": "ES2003c",
+          "quote": "For being strong and sturdy. So um if we want something strong and sturdy, I say stay with plastic or titanium, but if we go with spongy, we can stress that you can drop this as many times as you want, it doesn't matter, it's spongy material, it's not gonna break, you know. I just don't know how the L_E_D_ and the lights are gonna fit into a spongy material because it's not gonna be completely squeezable."
+        },
+        {
+          "meeting_id": "ES2003d",
+          "quote": "It's literally a case of whether or not this is correct. I'm not quite sure if they're I don't think they mean point five Euros per button."
+        }
+      ]
+    },
+    {
+      "question_id": "Q03",
+      "answer": "The retrieved transcripts show in TS3009a, Speaker A said that: \"Then uh we'll look at the project plan from uh Real Reaction. We'll discuss about our first ideas about the project, and then uh we'll close the meeting, and then we can uh individually uh do our things and then uh we'll get back here. So this the opening we'll uh We have to uh design a new television remote control.\"; in the final meeting TS3009d, Speaker D said that: \"But I think you could better change uh titanium to hard a hard kind of plastic looking like titanium than lose the L_C_D_ screen. Because you have lots of functions in it too.\"; in the final meeting TS3009d, Speaker C said that: \"Well you can you can double curve, if you don't have titanium. And that we dropped, so it it can be done.\".",
+      "citations": [
+        {
+          "meeting_id": "TS3009a",
+          "quote": "Then uh we'll look at the project plan from uh Real Reaction. We'll discuss about our first ideas about the project, and then uh we'll close the meeting, and then we can uh individually uh do our things and then uh we'll get back here. So this the opening we'll uh We have to uh design a new television remote control."
+        },
+        {
+          "meeting_id": "TS3009d",
+          "quote": "But I think you could better change uh titanium to hard a hard kind of plastic looking like titanium than lose the L_C_D_ screen. Because you have lots of functions in it too."
+        },
+        {
+          "meeting_id": "TS3009d",
+          "quote": "Well you can you can double curve, if you don't have titanium. And that we dropped, so it it can be done."
+        }
+      ]
+    },
+    {
+      "question_id": "Q04",
+      "answer": "The retrieved transcripts show in TS3011a, Speaker A said that: \"Uh the profit we are looking for for this product is fifty million Euros, which is quite a number. Um we uh we will focus this internationally, so the product will be sold um, if there is market uh interest, uh in in more than one country. And um the production costs should not be more than uh twelve Euro fifty, so we should keep that in mind by uh w w during the development, um because uh, well, those are important numbers.\"; in TS3011a, Speaker A said that: \"Um any questions well, just just let me know. Um okay, back to our project. Um the remote control we are going to develop um will have a selling price of about twenty five Euros.\"; in TS3011b, Speaker C said that: \"Um, there's a energy source here. And um basically there it's connected to three things.\".",
+      "citations": [
+        {
+          "meeting_id": "TS3011a",
+          "quote": "Uh the profit we are looking for for this product is fifty million Euros, which is quite a number. Um we uh we will focus this internationally, so the product will be sold um, if there is market uh interest, uh in in more than one country. And um the production costs should not be more than uh twelve Euro fifty, so we should keep that in mind by uh w w during the development, um because uh, well, those are important numbers."
+        },
+        {
+          "meeting_id": "TS3011a",
+          "quote": "Um any questions well, just just let me know. Um okay, back to our project. Um the remote control we are going to develop um will have a selling price of about twenty five Euros."
+        },
+        {
+          "meeting_id": "TS3011b",
+          "quote": "Um, there's a energy source here. And um basically there it's connected to three things."
+        }
+      ]
+    },
+    {
+      "question_id": "Q05",
+      "answer": "The retrieved transcripts show in TS3007a, Speaker A said that: \"What we're going to do, and how we're going to do it. Uh and discussion about that and a little closing at the end. Okay uh, my name is uh Danny Wolfs.\"; in TS3007c, Speaker C said that: \"Yeah, well uh actually it is. And it it if it isn't, you just shake it a bit and and add add with power up again. But, what l what Jarek said, you could you could use a battery that you'd just keep it on the recharging whenever it moves.\"; in the final meeting TS3007d, Speaker A said that: \"then the conceptual design. Uh, well all the things we have uh discussed, uh the energy, which uh turn out to be uh batteries, so that's\".",
+      "citations": [
+        {
+          "meeting_id": "TS3007a",
+          "quote": "What we're going to do, and how we're going to do it. Uh and discussion about that and a little closing at the end. Okay uh, my name is uh Danny Wolfs."
+        },
+        {
+          "meeting_id": "TS3007c",
+          "quote": "Yeah, well uh actually it is. And it it if it isn't, you just shake it a bit and and add add with power up again. But, what l what Jarek said, you could you could use a battery that you'd just keep it on the recharging whenever it moves."
+        },
+        {
+          "meeting_id": "TS3007d",
+          "quote": "then the conceptual design. Uh, well all the things we have uh discussed, uh the energy, which uh turn out to be uh batteries, so that's"
+        }
+      ]
+    },
+    {
+      "question_id": "Q06",
+      "answer": "The retrieved transcripts show in ES2008a, Speaker A said that: \"And then we'll move into the project plan, do a little discussion and close, since we only have twenty five minutes. First of all our project aim. Um we are creating a new remote control which we have three goals about, it needs to be original, trendy and user-friendly.\"; in ES2008b, Speaker A said that: \"Okay, we have to we have about four minutes left to define our functions. So let's do that quickly. Um so we want something to keep it from getting lost.\"; in ES2008c, Speaker A said that: \"We decided our target group is the focus on who can afford it, because we have international appeal and we said it's for all age groups, different um functions of it. Our main objectives were simplicity and fashion. And s um in specific functions are something to keep the remote from getting lost, large buttons for the essential functions, a possibility for extra functions, like a sliding a sliding piece and a long-life battery or a charging station.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2008a",
+          "quote": "And then we'll move into the project plan, do a little discussion and close, since we only have twenty five minutes. First of all our project aim. Um we are creating a new remote control which we have three goals about, it needs to be original, trendy and user-friendly."
+        },
+        {
+          "meeting_id": "ES2008b",
+          "quote": "Okay, we have to we have about four minutes left to define our functions. So let's do that quickly. Um so we want something to keep it from getting lost."
+        },
+        {
+          "meeting_id": "ES2008c",
+          "quote": "We decided our target group is the focus on who can afford it, because we have international appeal and we said it's for all age groups, different um functions of it. Our main objectives were simplicity and fashion. And s um in specific functions are something to keep the remote from getting lost, large buttons for the essential functions, a possibility for extra functions, like a sliding a sliding piece and a long-life battery or a charging station."
+        }
+      ]
+    },
+    {
+      "question_id": "Q07",
+      "answer": "The retrieved transcripts show in IS1008d, Speaker A said that: \"So it's uh actually, our budget was uh twelve point five Euro, but uh it's coming to nine point nine five Euro, so we are under uh below the budget, okay, so still we are saving some money. I think it's a good figure.\"; in IS1008d, Speaker A said that: \"So then we have sample sensor and sample speaker, then uh we have the wood material, then special colour and push button. So it's uh actually, our budget was uh twelve point five Euro, but uh it's coming to nine point nine five Euro, so we are under uh below the budget, okay, so still we are saving some money. I think it's a good figure.\"; in IS1008d, Speaker C rejected that: \"Um, so in terms of function, you have to be able to turn the T_V_ on and off, volume and channel control, menu control, voice recognition control, and we've incorporated the L_C_D_ screen on the flip panel as part of the design, if we figure out it's too expensive, well then you just take it off.\".",
+      "citations": [
+        {
+          "meeting_id": "IS1008d",
+          "quote": "So it's uh actually, our budget was uh twelve point five Euro, but uh it's coming to nine point nine five Euro, so we are under uh below the budget, okay, so still we are saving some money. I think it's a good figure."
+        },
+        {
+          "meeting_id": "IS1008d",
+          "quote": "So then we have sample sensor and sample speaker, then uh we have the wood material, then special colour and push button. So it's uh actually, our budget was uh twelve point five Euro, but uh it's coming to nine point nine five Euro, so we are under uh below the budget, okay, so still we are saving some money. I think it's a good figure."
+        },
+        {
+          "meeting_id": "IS1008d",
+          "quote": "Um, so in terms of function, you have to be able to turn the T_V_ on and off, volume and channel control, menu control, voice recognition control, and we've incorporated the L_C_D_ screen on the flip panel as part of the design, if we figure out it's too expensive, well then you just take it off."
+        }
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "answer": "The retrieved transcripts show in ES2007a, Speaker C described as uncertain that: \"Yeah. Yeah, I think this is just the preliminary, get some rough ideas for what our experiences with remote controls have been and and what we would roughly what we would incorporate into a new one maybe.\"; in ES2007b, Speaker C described as uncertain that: \"Thinking of what we can retain, what we can do away with, uh what we what we can perfect a little bit as far as design um. we don't want to do something that's too radical of a change, I guess, I mean people want a remote that's familiar, that has their favourite functionalities um and and does the basics, but\"; in ES2007b, Speaker A rejected that: \"Um. But a in there's no I don't think there's any point in making a remote control unit that's gonna last for fifty years, because technology will have changed and, you know, we won't have televisions in ten years' time. So\".",
+      "citations": [
+        {
+          "meeting_id": "ES2007a",
+          "quote": "Yeah. Yeah, I think this is just the preliminary, get some rough ideas for what our experiences with remote controls have been and and what we would roughly what we would incorporate into a new one maybe."
+        },
+        {
+          "meeting_id": "ES2007b",
+          "quote": "Thinking of what we can retain, what we can do away with, uh what we what we can perfect a little bit as far as design um. we don't want to do something that's too radical of a change, I guess, I mean people want a remote that's familiar, that has their favourite functionalities um and and does the basics, but"
+        },
+        {
+          "meeting_id": "ES2007b",
+          "quote": "Um. But a in there's no I don't think there's any point in making a remote control unit that's gonna last for fifty years, because technology will have changed and, you know, we won't have televisions in ten years' time. So"
+        }
+      ]
+    },
+    {
+      "question_id": "Q09",
+      "answer": "The retrieved transcripts show in IS1002b, Speaker D confirmed that: \"And so the th the twenty-five Euros that we've identified as the sale price is a wholesale price rather than a retail price. That's what we decided here. Um so what I did is I I decided that that this this needs to be a product in a in a sense can market itself.\"; in IS1002b, Speaker D said that: \"Yeah, what for me is it um I d I don't know what I'm marketing right now, okay, 'til you spoke and when I wrote this, I don't know what I'm marketing. I just know that I I was identified as a a we identified ourselves as a as a developer, as a manufacturer, and as a as a um distributor t to other wholesalers. And so the th the twenty-five Euros that we've identified as the sale price is a wholesale price rather than a retail price.\"; in IS1002c, Speaker A said that: \"Yeah no I I think that's where we really should be more flexible than anything else because as we said in the last meeting, our management is really looking for us to push our brand. We're entering a new market here, so I think the the profit expectation for this one product is maybe not as important as being able to\".",
+      "citations": [
+        {
+          "meeting_id": "IS1002b",
+          "quote": "And so the th the twenty-five Euros that we've identified as the sale price is a wholesale price rather than a retail price. That's what we decided here. Um so what I did is I I decided that that this this needs to be a product in a in a sense can market itself."
+        },
+        {
+          "meeting_id": "IS1002b",
+          "quote": "Yeah, what for me is it um I d I don't know what I'm marketing right now, okay, 'til you spoke and when I wrote this, I don't know what I'm marketing. I just know that I I was identified as a a we identified ourselves as a as a developer, as a manufacturer, and as a as a um distributor t to other wholesalers. And so the th the twenty-five Euros that we've identified as the sale price is a wholesale price rather than a retail price."
+        },
+        {
+          "meeting_id": "IS1002c",
+          "quote": "Yeah no I I think that's where we really should be more flexible than anything else because as we said in the last meeting, our management is really looking for us to push our brand. We're entering a new market here, so I think the the profit expectation for this one product is maybe not as important as being able to"
+        }
+      ]
+    },
+    {
+      "question_id": "Q10",
+      "answer": "The retrieved transcripts show in TS3003a, Speaker A said that: \"Uh the User Interface Designer is going to do the technical function design, user interface concept and user interface design. And the marketing expert is doing a little bit of user requirement specification, trend watching and project uh product ev evaluation. So that's a bit what you're going to do.\"; in TS3003b, Speaker A said that: \"Uh let's um specify the target group. Because are we talking about elderly elderly people or people from forty to eighty. Because I think what we're going to design now is for people above sixty, maybe.\"; in TS3003c, Speaker D rejected that: \"Okay. Well personally I don't think that older people like to shake their remote control before they use it.\".",
+      "citations": [
+        {
+          "meeting_id": "TS3003a",
+          "quote": "Uh the User Interface Designer is going to do the technical function design, user interface concept and user interface design. And the marketing expert is doing a little bit of user requirement specification, trend watching and project uh product ev evaluation. So that's a bit what you're going to do."
+        },
+        {
+          "meeting_id": "TS3003b",
+          "quote": "Uh let's um specify the target group. Because are we talking about elderly elderly people or people from forty to eighty. Because I think what we're going to design now is for people above sixty, maybe."
+        },
+        {
+          "meeting_id": "TS3003c",
+          "quote": "Okay. Well personally I don't think that older people like to shake their remote control before they use it."
+        }
+      ]
+    },
+    {
+      "question_id": "Q11",
+      "answer": "The retrieved transcripts show in ES2011a, Speaker A said that: \"Okay. I forgot to s say I'm the Project Manager but I figured you all knew that already, um so.\"; in ES2011b, Speaker A described as uncertain that: \"You know actually our our new project requirements, I'm not sure if they meant o onl use only for television as in not for D_V_D_ or just not internet type things. So I'll I'll check that and update you on the next But we'll hold off on that 'cause\"; in ES2011d, Speaker A confirmed that: \"Um I've just stuck the numbers in, it was a real challenge there. But if I missed anything that we've gone over, or if you see something that has changed I mean, we decided on batteries, and the regular chip would be necessary for the more advanced iPod-like button. Um I said uncurved or flat.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2011a",
+          "quote": "Okay. I forgot to s say I'm the Project Manager but I figured you all knew that already, um so."
+        },
+        {
+          "meeting_id": "ES2011b",
+          "quote": "You know actually our our new project requirements, I'm not sure if they meant o onl use only for television as in not for D_V_D_ or just not internet type things. So I'll I'll check that and update you on the next But we'll hold off on that 'cause"
+        },
+        {
+          "meeting_id": "ES2011d",
+          "quote": "Um I've just stuck the numbers in, it was a real challenge there. But if I missed anything that we've gone over, or if you see something that has changed I mean, we decided on batteries, and the regular chip would be necessary for the more advanced iPod-like button. Um I said uncurved or flat."
+        }
+      ]
+    },
+    {
+      "question_id": "Q12",
+      "answer": "The retrieved transcripts show in ES2004a, Speaker D said that: \"Actually that just raises a point, I wonder what our design people think, but you know on a mobile phone, you can press a key and it gives you a menu, it's got a menu display, I wonder if incorporating that into the design of a remote control might be useful, so you've got a little L_C_D_ display.\"; in ES2004b, Speaker D described as uncertain that: \"Um the vast majority of the thirty five and under age group would like um a liquid crystal display and speech recognition, again that was to aid I think in uh when they've lost the actual remote control, some kind of speech recognition. Something we didn't put to them, but which I'm thinking of now is um even if perhaps the lost control can give off a bleep every now and again til you find it or a flashing light, possibly. Um, that trend reverses in the older age groups.\"; in the final meeting ES2004d, Speaker C rejected that: \"Yeah, no, I thought it it went really well and I yeah, I I feel that everyone was listened to and all the points that were raised seem to have been sorted out, although we didn't quite make the voice recognition in there, but that's that's good. I think it would have made it into the final product if it was actually if if if we'd seen the marketing before the initial specification was put out, I think maybe it would've come out a d little different, but yeah.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2004a",
+          "quote": "Actually that just raises a point, I wonder what our design people think, but you know on a mobile phone, you can press a key and it gives you a menu, it's got a menu display, I wonder if incorporating that into the design of a remote control might be useful, so you've got a little L_C_D_ display."
+        },
+        {
+          "meeting_id": "ES2004b",
+          "quote": "Um the vast majority of the thirty five and under age group would like um a liquid crystal display and speech recognition, again that was to aid I think in uh when they've lost the actual remote control, some kind of speech recognition. Something we didn't put to them, but which I'm thinking of now is um even if perhaps the lost control can give off a bleep every now and again til you find it or a flashing light, possibly. Um, that trend reverses in the older age groups."
+        },
+        {
+          "meeting_id": "ES2004d",
+          "quote": "Yeah, no, I thought it it went really well and I yeah, I I feel that everyone was listened to and all the points that were raised seem to have been sorted out, although we didn't quite make the voice recognition in there, but that's that's good. I think it would have made it into the final product if it was actually if if if we'd seen the marketing before the initial specification was put out, I think maybe it would've come out a d little different, but yeah."
+        }
+      ]
+    },
+    {
+      "question_id": "Q13",
+      "answer": "The retrieved transcripts show in TS3004b, Speaker D said that: \"Uh the last uh experiment uh was about gadgets, like uh speech recognition. We didn't uh think about that already. And uh an L_C_D_ on the remote control.\"; in TS3004b, Speaker A said that: \"I don't think it's very expensive actually. Why should it? You only have a microphone in it.\"; in TS3004c, Speaker B rejected that: \"M_P_ three player. And uh well um if we want to put in speech rec recognition or something, we I don't think we should put it on top then. I think that, if we're gonna put in more technology, that you need to be able to uh switch it open.\".",
+      "citations": [
+        {
+          "meeting_id": "TS3004b",
+          "quote": "Uh the last uh experiment uh was about gadgets, like uh speech recognition. We didn't uh think about that already. And uh an L_C_D_ on the remote control."
+        },
+        {
+          "meeting_id": "TS3004b",
+          "quote": "I don't think it's very expensive actually. Why should it? You only have a microphone in it."
+        },
+        {
+          "meeting_id": "TS3004c",
+          "quote": "M_P_ three player. And uh well um if we want to put in speech rec recognition or something, we I don't think we should put it on top then. I think that, if we're gonna put in more technology, that you need to be able to uh switch it open."
+        }
+      ]
+    },
+    {
+      "question_id": "Q14",
+      "answer": "The retrieved transcripts show in IS1009a, Speaker A said that: \"and the production cost should not exceed hopefully should be less than twelve fifty Euro.\"; in IS1009b, Speaker A said that: \"Do we look at one target group? And with the twenty five Euros you know can we can we afford to have uh I'm asking the technical people here whether um to look at sort of subgroups with maybe different buttons for each group how much would that throw us out of the cost we are supposed to respect?\"; in IS1009b, Speaker D rejected that: \"So I'll be coming to you um frequently as the Industrial Expert to tell me how hard it's gonna be to add a feature or how expensive it's gonna be or if your time, if it takes five years to develop this it's just something we can't do.\".",
+      "citations": [
+        {
+          "meeting_id": "IS1009a",
+          "quote": "and the production cost should not exceed hopefully should be less than twelve fifty Euro."
+        },
+        {
+          "meeting_id": "IS1009b",
+          "quote": "Do we look at one target group? And with the twenty five Euros you know can we can we afford to have uh I'm asking the technical people here whether um to look at sort of subgroups with maybe different buttons for each group how much would that throw us out of the cost we are supposed to respect?"
+        },
+        {
+          "meeting_id": "IS1009b",
+          "quote": "So I'll be coming to you um frequently as the Industrial Expert to tell me how hard it's gonna be to add a feature or how expensive it's gonna be or if your time, if it takes five years to develop this it's just something we can't do."
+        }
+      ]
+    },
+    {
+      "question_id": "Q15",
+      "answer": "The retrieved transcripts show in ES2016d, Speaker A said that: \"Okay so the costs under twelve point five Euro. Was no.\"; in ES2016d, Speaker A said that: \"Twelve and a half Euros is what supposed to cost us. Okay, so\"; in ES2016d, Speaker A said that: \"Probably two. You know. If we eliminate the fact that you know it's impossible to guarantee that it's not gonna be lost then\".",
+      "citations": [
+        {
+          "meeting_id": "ES2016d",
+          "quote": "Okay so the costs under twelve point five Euro. Was no."
+        },
+        {
+          "meeting_id": "ES2016d",
+          "quote": "Twelve and a half Euros is what supposed to cost us. Okay, so"
+        },
+        {
+          "meeting_id": "ES2016d",
+          "quote": "Probably two. You know. If we eliminate the fact that you know it's impossible to guarantee that it's not gonna be lost then"
+        }
+      ]
+    },
+    {
+      "question_id": "Q16",
+      "answer": "The retrieved transcripts show in TS3010b, Speaker C confirmed that: \"So it won't be um uh too expensive to build it. Only twelve Euro fifty I think uh we will make it. Now And here I have the top of the remote control.\"; in TS3010b, Speaker C rejected that: \"There's a lot of small uh electronics. So it won't be um uh too expensive to build it. Only twelve Euro fifty I think uh we will make it.\"; in the final meeting TS3010d, Speaker A rejected that: \"Um, then we uh lose two Euros. Then we have thirteen Euros.\".",
+      "citations": [
+        {
+          "meeting_id": "TS3010b",
+          "quote": "So it won't be um uh too expensive to build it. Only twelve Euro fifty I think uh we will make it. Now And here I have the top of the remote control."
+        },
+        {
+          "meeting_id": "TS3010b",
+          "quote": "There's a lot of small uh electronics. So it won't be um uh too expensive to build it. Only twelve Euro fifty I think uh we will make it."
+        },
+        {
+          "meeting_id": "TS3010d",
+          "quote": "Um, then we uh lose two Euros. Then we have thirteen Euros."
+        }
+      ]
+    },
+    {
+      "question_id": "Q17",
+      "answer": "The retrieved transcripts show in ES2009c, Speaker A rejected that: \"The voice rec thing, I mean, if if we're looking at bottom line, now we're looking at upping the cost to seventeen to get the touch screen on, I think we might have to drop the voice rec.\"; in ES2009c, Speaker B said that: \"My estimate is that in order to incorporate touch screen technology it's gonna cost us upwards of seventeen fifty Euro per remote, yeah that's just an estimate though.\"; in ES2009d, Speaker B confirmed that: \"Um, we took into account a lot of the things that we went over in the last meeting, um. Some of the most important things to consider are that we decided not to go for the touch screen which you can see and opted for some very large buttons for the primary functions, um.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2009c",
+          "quote": "The voice rec thing, I mean, if if we're looking at bottom line, now we're looking at upping the cost to seventeen to get the touch screen on, I think we might have to drop the voice rec."
+        },
+        {
+          "meeting_id": "ES2009c",
+          "quote": "My estimate is that in order to incorporate touch screen technology it's gonna cost us upwards of seventeen fifty Euro per remote, yeah that's just an estimate though."
+        },
+        {
+          "meeting_id": "ES2009d",
+          "quote": "Um, we took into account a lot of the things that we went over in the last meeting, um. Some of the most important things to consider are that we decided not to go for the touch screen which you can see and opted for some very large buttons for the primary functions, um."
+        }
+      ]
+    },
+    {
+      "question_id": "Q18",
+      "answer": "The retrieved transcripts show in ES2014a, Speaker A said that: \"And so depending what the uh the overhead uh costs are will determine uh how many units we're uh looking to sell or projecting to sell at this point in time. So um Experience with remote control, first ideas. New remote.\"; in ES2014b, Speaker D said that: \"There's a lot more th there's a lot lot more older people who didn't know whether they wanted it or not as well. Um we also asked what frustrated people about remote controls and the number one frustration was that the remote was lost somewhere else in the room and that they couldn't find it. And the second second biggest frustration what that if they got a new remote control, it was difficult to learn um all the buttons and all the functions, and to find your way around it.\"; in ES2014d, Speaker A said that: \"Okay, but remember the main the only reason we were planning on having the voice recognition was so that they could find the remote if it got lost.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2014a",
+          "quote": "And so depending what the uh the overhead uh costs are will determine uh how many units we're uh looking to sell or projecting to sell at this point in time. So um Experience with remote control, first ideas. New remote."
+        },
+        {
+          "meeting_id": "ES2014b",
+          "quote": "There's a lot more th there's a lot lot more older people who didn't know whether they wanted it or not as well. Um we also asked what frustrated people about remote controls and the number one frustration was that the remote was lost somewhere else in the room and that they couldn't find it. And the second second biggest frustration what that if they got a new remote control, it was difficult to learn um all the buttons and all the functions, and to find your way around it."
+        },
+        {
+          "meeting_id": "ES2014d",
+          "quote": "Okay, but remember the main the only reason we were planning on having the voice recognition was so that they could find the remote if it got lost."
+        }
+      ]
+    },
+    {
+      "question_id": "Q19",
+      "answer": "The retrieved transcripts show in IS1003a, Speaker A left unresolved that: \"I don't know if we have to do it now, maybe later later.\"; in IS1003c, Speaker B said that: \"So I in fact the the f something I want to discuss is which kind of material are we going to use, so will it will be wooden wooden di wooden remote control or a a plastic remote control like this one. So and in which which which kind will be the the different bu button, so it can be some, you know, classic pushbutton like this one, or you have also some button like L_C_D_ where you know, the button the buttons are unlighted during the night, or, you know, you can see them in the darkness.\"; in IS1003d, Speaker A said that: \"Yeah th no, it's the it's the pineapple control remote control. It's a pineapple now, it has changed.\".",
+      "citations": [
+        {
+          "meeting_id": "IS1003a",
+          "quote": "I don't know if we have to do it now, maybe later later."
+        },
+        {
+          "meeting_id": "IS1003c",
+          "quote": "So I in fact the the f something I want to discuss is which kind of material are we going to use, so will it will be wooden wooden di wooden remote control or a a plastic remote control like this one. So and in which which which kind will be the the different bu button, so it can be some, you know, classic pushbutton like this one, or you have also some button like L_C_D_ where you know, the button the buttons are unlighted during the night, or, you know, you can see them in the darkness."
+        },
+        {
+          "meeting_id": "IS1003d",
+          "quote": "Yeah th no, it's the it's the pineapple control remote control. It's a pineapple now, it has changed."
+        }
+      ]
+    },
+    {
+      "question_id": "Q20",
+      "answer": "The retrieved transcripts show in ES2008a, Speaker A rejected that: \"Okay, it seems we have a little bit of a conflict over um to uh combining all the remotes cont together versus having f five different remotes. So um like you said you don't like having all the buttons on one on one remote, and yet you don't wanna have five remotes. So how do we work with that?\"; in ES2008a, Speaker A said that: \"Um. Okay, it seems we have a little bit of a conflict over um to uh combining all the remotes cont together versus having f five different remotes. So um like you said you don't like having all the buttons on one on one remote, and yet you don't wanna have five remotes.\"; in ES2008b, Speaker C said that: \"So we've got to to find our find a way of striking a balance between the two. Um as I said before, remote controls are subjective, different people want want different things. Um personally wa what I want from a remote control is a device that's simple, it it's easy to use, uh it's got big buttons for doing the things I do most often, changing the volume, changing the channel.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2008a",
+          "quote": "Okay, it seems we have a little bit of a conflict over um to uh combining all the remotes cont together versus having f five different remotes. So um like you said you don't like having all the buttons on one on one remote, and yet you don't wanna have five remotes. So how do we work with that?"
+        },
+        {
+          "meeting_id": "ES2008a",
+          "quote": "Um. Okay, it seems we have a little bit of a conflict over um to uh combining all the remotes cont together versus having f five different remotes. So um like you said you don't like having all the buttons on one on one remote, and yet you don't wanna have five remotes."
+        },
+        {
+          "meeting_id": "ES2008b",
+          "quote": "So we've got to to find our find a way of striking a balance between the two. Um as I said before, remote controls are subjective, different people want want different things. Um personally wa what I want from a remote control is a device that's simple, it it's easy to use, uh it's got big buttons for doing the things I do most often, changing the volume, changing the channel."
+        }
+      ]
+    },
+    {
+      "question_id": "Q21",
+      "answer": "The retrieved transcripts show in IS1007d, Speaker B said that: \"And uh so we have and we we are both agreed on some two versions of the prototypes, because we were no not decided whether we wanted to have an L_C_D_ or not because it's too expensive. So we come up with two versions. One with and one without L_C_D_s.\"; in IS1007d, Speaker C said that: \"wi with the L_C_D_, which costs two dollar, you have two plus four plus four plus two plus two.\"; in IS1007d, Speaker C said that: \"Well so the price to produce For uh the simplest one, say we start from four dollars to produce such a device. Uh it's about it\".",
+      "citations": [
+        {
+          "meeting_id": "IS1007d",
+          "quote": "And uh so we have and we we are both agreed on some two versions of the prototypes, because we were no not decided whether we wanted to have an L_C_D_ or not because it's too expensive. So we come up with two versions. One with and one without L_C_D_s."
+        },
+        {
+          "meeting_id": "IS1007d",
+          "quote": "wi with the L_C_D_, which costs two dollar, you have two plus four plus four plus two plus two."
+        },
+        {
+          "meeting_id": "IS1007d",
+          "quote": "Well so the price to produce For uh the simplest one, say we start from four dollars to produce such a device. Uh it's about it"
+        }
+      ]
+    },
+    {
+      "question_id": "Q22",
+      "answer": "The retrieved transcripts show in ES2010a, Speaker B said that: \"Can you with a small lithium battery?\"; in ES2010c, Speaker B said that: \"So they're more widely available now. And they also have a longer battery life than most batteries. But if you only have to replace it every five years.\"; in the final meeting ES2010d, Speaker A said that: \"Yeah. But if it's a do you wanna go for this is where we need to make a final call on if it's a lithium or do we wanna go triple A_s, 'cause triple A_s we're gonna have t do more than one battery. Oh, let's just go for a lithium.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2010a",
+          "quote": "Can you with a small lithium battery?"
+        },
+        {
+          "meeting_id": "ES2010c",
+          "quote": "So they're more widely available now. And they also have a longer battery life than most batteries. But if you only have to replace it every five years."
+        },
+        {
+          "meeting_id": "ES2010d",
+          "quote": "Yeah. But if it's a do you wanna go for this is where we need to make a final call on if it's a lithium or do we wanna go triple A_s, 'cause triple A_s we're gonna have t do more than one battery. Oh, let's just go for a lithium."
+        }
+      ]
+    },
+    {
+      "question_id": "Q23",
+      "answer": "The retrieved transcripts show in ES2006a, Speaker C said that: \"And that's selling them on the international market, not just in the U_K_. Um so to do that our finance people estimate that we need production costs of maximum twelve and a half Euro so that we can reach that profit target. So that's something to keep in mind while you're designing.\"; in ES2006a, Speaker C said that: \"Um so to do that our finance people estimate that we need production costs of maximum twelve and a half Euro so that we can reach that profit target. So that's something to keep in mind while you're designing. Okay.\"; in the final meeting ES2006d, Speaker C rejected that: \"Yeah. So, as we can see, that's way too expensive down here.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2006a",
+          "quote": "And that's selling them on the international market, not just in the U_K_. Um so to do that our finance people estimate that we need production costs of maximum twelve and a half Euro so that we can reach that profit target. So that's something to keep in mind while you're designing."
+        },
+        {
+          "meeting_id": "ES2006a",
+          "quote": "Um so to do that our finance people estimate that we need production costs of maximum twelve and a half Euro so that we can reach that profit target. So that's something to keep in mind while you're designing. Okay."
+        },
+        {
+          "meeting_id": "ES2006d",
+          "quote": "Yeah. So, as we can see, that's way too expensive down here."
+        }
+      ]
+    },
+    {
+      "question_id": "Q24",
+      "answer": "The retrieved transcripts show in ES2002a, Speaker B said that: \"Um well this is the kick-off meeting for our our project. Um and um this is just what we're gonna be doing over the next twenty five minutes. Um so first of all, just to kind of make sure that we all know each other, I'm Laura and I'm the project manager.\"; in ES2002c, Speaker A said that: \"Um the first one is a standard battery. Okay the second one I think is more of a gimmick then actually a useable thing, it's a wind-up you know, a crank. Yeah but that that might be something I think that's more of a look and feel decision because I don't think you can have one power source if you're using the alternative power sources.\"; in ES2002c, Speaker B confirmed that: \"decided on our our target group being fifteen to thirty five, and we decided that it was gonna be non-rechargeable battery-powered, that we're gonna group our audio-visual and other functions into into those categories, um. And I told you guys about the three new requirements about ignoring teletext, ignoring everything except the T_V_, and trying to incorporate the the uh corporate colour and slogan.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2002a",
+          "quote": "Um well this is the kick-off meeting for our our project. Um and um this is just what we're gonna be doing over the next twenty five minutes. Um so first of all, just to kind of make sure that we all know each other, I'm Laura and I'm the project manager."
+        },
+        {
+          "meeting_id": "ES2002c",
+          "quote": "Um the first one is a standard battery. Okay the second one I think is more of a gimmick then actually a useable thing, it's a wind-up you know, a crank. Yeah but that that might be something I think that's more of a look and feel decision because I don't think you can have one power source if you're using the alternative power sources."
+        },
+        {
+          "meeting_id": "ES2002c",
+          "quote": "decided on our our target group being fifteen to thirty five, and we decided that it was gonna be non-rechargeable battery-powered, that we're gonna group our audio-visual and other functions into into those categories, um. And I told you guys about the three new requirements about ignoring teletext, ignoring everything except the T_V_, and trying to incorporate the the uh corporate colour and slogan."
+        }
+      ]
+    },
+    {
+      "question_id": "Q25",
+      "answer": "The retrieved transcripts show in ES2011a, Speaker A described as uncertain that: \"Experience with remote control. So I guess we have to reflect on our experiences with remote controls to decide what um we would like to see in a convenient, practical, nice remote control. Um so do we have any initial ideas for uh how this remote control should be designed or formatted or the the buttons it should have.\"; in ES2011c, Speaker D said that: \"If it's a bit like those juggling balls, you can change shape according to your to the way you hold it. If it's got sand in it maybe, or something, you it it just moulds to your hand.\"; in the final meeting ES2011d, Speaker A confirmed that: \"What if um the it was just patterns on like we we chose the shape or the sh shape could be whatever we wanted and then it would just be like a design on the rubber.\".",
+      "citations": [
+        {
+          "meeting_id": "ES2011a",
+          "quote": "Experience with remote control. So I guess we have to reflect on our experiences with remote controls to decide what um we would like to see in a convenient, practical, nice remote control. Um so do we have any initial ideas for uh how this remote control should be designed or formatted or the the buttons it should have."
+        },
+        {
+          "meeting_id": "ES2011c",
+          "quote": "If it's a bit like those juggling balls, you can change shape according to your to the way you hold it. If it's got sand in it maybe, or something, you it it just moulds to your hand."
+        },
+        {
+          "meeting_id": "ES2011d",
+          "quote": "What if um the it was just patterns on like we we chose the shape or the sh shape could be whatever we wanted and then it would just be like a design on the rubber."
+        }
+      ]
+    }
+  ],
+  "brief": "# Team TS3012 — Pre-Meeting Brief\n\nBased only on the 4 ingested meetings: TS3012a, TS3012b, TS3012c, TS3012d.\nEvery bullet below carries its own verified transcript quotation.\n\n## A. Decisions Made\n\n- Market: I think we should go for universal, because apparently we're a separate company making separate c remote controls to sell to a lot of diverse people. (confirmed in TS3012b, Speaker A).\n  > “I think we should go for universal, because apparently we're a separate company making separate c remote controls to sell to a lot of diverse people.” — TS3012b\n\n- Lost Remote: Yeah, we need to im de we are going to implement the beep and the flash thing to recover your remote. (confirmed in TS3012c, Speaker A).\n  > “Yeah, we need to im de we are going to implement the beep and the flash thing to recover your remote.” — TS3012c\n\n- Material: If we choose titanium, uh we cannot use more than one curve. (confirmed in TS3012c, Speaker C).\n  > “If we choose titanium, uh we cannot use more than one curve.” — TS3012c\n\n- Power Source: Uh if we choose plastic, we cannot choose solar cells for energy. (confirmed in TS3012c, Speaker C).\n  > “Uh if we choose plastic, we cannot choose solar cells for energy.” — TS3012c\n\n- Colour: Um we agreed that the colour should be b uh yellow and black. (confirmed in TS3012d, Speaker A).\n  > “Um we agreed that the colour should be b uh yellow and black.” — TS3012d\n\n- Controls: We chose the buttons to be uh teletext, okay button, favourite channel and the mute. (confirmed in TS3012d, Speaker B).\n  > “We chose the buttons to be uh teletext, okay button, favourite channel and the mute.” — TS3012d\n\n- Cost: So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and the separate covers can account for the if people want it, we'll just then we'll do it in black. (confirmed in TS3012d, Speaker A).\n  > “So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and the separate covers can account for the if people want it, we'll just then we'll do it in black.” — TS3012d\n\n- Display: We agreed that we would implement both the L_C_D_ and speech recognition, but I'll get to that in a moment. (confirmed in TS3012d, Speaker A).\n  > “We agreed that we would implement both the L_C_D_ and speech recognition, but I'll get to that in a moment.” — TS3012d\n\n## B. What Changed Along the Way\n\n- Colour: discussed as a proposal in TS3012b (\"I'm not sure if we I think we should keep the the logo in mind, because with colours you can uh have a lot of uh fashionable colours…\") and later confirmed in TS3012d (\"We chose a different type of colour for the menu.\").\n  > “I'm not sure if we I think we should keep the the logo in mind, because with colours you can uh have a lot of uh fashionable colours and everything on it, which suits everybody's taste.” — TS3012b\n  > “We chose a different type of colour for the menu.” — TS3012d\n\n- Cost: earlier position in TS3012b (\"We are going for twenty five Euros sales price, but just try to find out what they're willing to pay for it, because if they're willing to pay…\") was later superseded in TS3012d by \"So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and…\".\n  > “We are going for twenty five Euros sales price, but just try to find out what they're willing to pay for it, because if they're willing to pay more, we could lose a little profit and maybe attract more customers, uh we just have to see what it looks like.” — TS3012b\n  > “So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and the separate covers can account for the if people want it, we'll just then we'll do it in black.” — TS3012d\n\n- Lost Remote: earlier position in TS3012b (\"So this is basically what I h had in mind in the fade-proof symbols, locator, a sound, uh so clear we should stick to existing symbols, but maybe…\") was later superseded in TS3012c by \"Yeah, we need to im de we are going to implement the beep and the flash thing to recover your remote.\".\n  > “So this is basically what I h had in mind in the fade-proof symbols, locator, a sound, uh so clear we should stick to existing symbols, but maybe we could do a little uh investigation to see whether some symbols are uh need to be replaced by others.” — TS3012b\n  > “Yeah, we need to im de we are going to implement the beep and the flash thing to recover your remote.” — TS3012c\n\n- Market: earlier position in TS3012a (\"So I suggest you make us the elephant in the market.\") was later superseded in TS3012b by \"I think we should go for universal, because apparently we're a separate company making separate c remote controls to sell to a lot of diverse people.\".\n  > “So I suggest you make us the elephant in the market.” — TS3012a\n  > “I think we should go for universal, because apparently we're a separate company making separate c remote controls to sell to a lot of diverse people.” — TS3012b\n\n- Power Source: discussed as a proposal in TS3012b (\"Maybe we should what what could be possible is one with rechargeable batteries for example.\") and later confirmed in TS3012c (\"Uh energy, we choose regular regular batteries.\").\n  > “Maybe we should what what could be possible is one with rechargeable batteries for example.” — TS3012b\n  > “Uh energy, we choose regular regular batteries.” — TS3012c\n\n## C. Open Actions and Ownership\n\n- I will do so after every meeting, so if you have some information you wanna take back you can find it there. — owner: Speaker A; status: open (raised in TS3012b).\n  > “I will do so after every meeting, so if you have some information you wanna take back you can find it there.” — TS3012b\n\n- I'm not sure, you should find out if it's if rechargeable is important. — owner: ownership unclear; status: open (raised in TS3012b).\n  > “I'm not sure, you should find out if it's if rechargeable is important.” — TS3012b\n\n- Um well you should you should look into the in into the materials that are real durable. — owner: ownership unclear; status: open (raised in TS3012b).\n  > “Um well you should you should look into the in into the materials that are real durable.” — TS3012b\n\n- So we agree on the the part that we need to get something on the on the remote to find it somewhere and increase it the durability of of the thing, so The other aspects, we'll just see how what you came up with and what's possible for that budget. — owner: ownership unclear; status: open (raised in TS3012b).\n  > “So we agree on the the part that we need to get something on the on the remote to find it somewhere and increase it the durability of of the thing, so The other aspects, we'll just see how what you came up with and what's possible for that budget.” — TS3012b\n\n- Yeah, we need to im de we are going to implement the beep and the flash thing to recover your remote. — owner: ownership unclear; status: open (raised in TS3012c).\n  > “Yeah, we need to im de we are going to implement the beep and the flash thing to recover your remote.” — TS3012c\n\n- So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and the separate covers can account for the if people want it, we'll just then we'll do it in black. — owner: ownership unclear; status: open (raised in TS3012d).\n  > “So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and the separate covers can account for the if people want it, we'll just then we'll do it in black.” — TS3012d\n\n- We agreed that we would implement both the L_C_D_ and speech recognition, but I'll get to that in a moment. — owner: Speaker A; status: open (raised in TS3012d).\n  > “We agreed that we would implement both the L_C_D_ and speech recognition, but I'll get to that in a moment.” — TS3012d\n\n## D. Disagreements Still Open\n\n- Cost: Speaker C in TS3012b: \"But I think that will cost a lot.\" | Speaker C in TS3012d: \"Perhaps they uh no, but perhaps they think uh okay, the cover is such a nice idea, uh let's that that then they uh that allow us to…\" | Speaker C in TS3012d: \"But I think for this price, this is it's really a reasonable product.\". A later confirmed decision appears in TS3012d, but the disagreement itself was not explicitly declared resolved.\n  > “But I think that will cost a lot.” — TS3012b\n  > “Perhaps they uh no, but perhaps they think uh okay, the cover is such a nice idea, uh let's that that then they uh that allow us to make some more costs.” — TS3012d\n\n- Features: Speaker B in TS3012b: \"No, but basic functions but functions which are not frequently used.\" | Speaker C in TS3012b: \"But I think there must be a way uh to invoke the more complicated functions of a television.\" | Speaker C in TS3012c: \"Oh that's r But I think uh we now already have to uh implement uh an advanced chip.\". No explicit resolution was found in the available meetings.\n  > “No, but basic functions but functions which are not frequently used.” — TS3012b\n  > “But I think there must be a way uh to invoke the more complicated functions of a television.” — TS3012b\n\n- Material: Speaker A in TS3012c: \"But I think the basic thing let's just rule out wood for now and continue.\" | Speaker C in TS3012c: \"But I think wood is not an option either.\" | Speaker C in TS3012c: \"No, but can we make yellow rubber?\". A later confirmed decision appears in TS3012c, but the disagreement itself was not explicitly declared resolved.\n  > “But I think the basic thing let's just rule out wood for now and continue.” — TS3012c\n  > “But I think wood is not an option either.” — TS3012c\n\n- Power Source: Speaker C in TS3012c: \"Yeah, but I think this rules out our unit our rechargeable unit.\". A later confirmed decision appears in TS3012c, but the disagreement itself was not explicitly declared resolved.\n  > “Yeah, but I think this rules out our unit our rechargeable unit.” — TS3012c\n\n## Appendix: Unresolved Questions Captured in the Transcripts\n\n- I'm not sure if we I think we should keep the the logo in mind, because with colours you can uh have a lot of uh fashionable colours and everything on it, which suits everybody's taste. (raised in TS3012b).\n  > “I'm not sure if we I think we should keep the the logo in mind, because with colours you can uh have a lot of uh fashionable colours and everything on it, which suits everybody's taste.” — TS3012b\n\n- I'm not sure if you came up with anything in the meantime, after making a presentation. (raised in TS3012b).\n  > “I'm not sure if you came up with anything in the meantime, after making a presentation.” — TS3012b\n\n- Also keep in mind again, the L_C_D_ screen is very flat, but it needs transistors, resistors, I don't know what more and that needs space. (raised in TS3012b).\n  > “Also keep in mind again, the L_C_D_ screen is very flat, but it needs transistors, resistors, I don't know what more and that needs space.” — TS3012b\n\n---\nMethod note: decisions are only labelled confirmed when the transcript contains explicit agreement language; proposals are not promoted to decisions. Quotations are verbatim and were checked deterministically against the original transcript text.\n"
+}

@@ -1,0 +1,554 @@
+{
+  "summary": {
+    "total": 11,
+    "correct": 3,
+    "partially_correct": 4,
+    "incorrect": 4,
+    "mean_fact_coverage": 0.591,
+    "mean_citation_validity": 1.0,
+    "mean_evidence_precision": 0.712,
+    "mean_evidence_recall": 0.636,
+    "mean_meeting_retrieval_recall": 1.0,
+    "mean_decision_state_accuracy": 0.091,
+    "mean_unsupported_claim_rate": 0.0
+  },
+  "questions": [
+    {
+      "question_id": "E01",
+      "question": "Which material did Team TS3012 confirm for the remote's case, and did that choice survive the final budget cuts?",
+      "agent_answer": "The retrieved transcripts show in TS3012b, Speaker A said that: \"So we agree on the the part that we need to get something on the on the remote to find it somewhere and increase it the durability of of the thing, so The other aspects, we'll just see how what you came up with and what's possible for that budget.\"; in TS3012c, Speaker A said that: \"The case, it will be the material will be rubber, suppose.\".",
+      "ground_truth": "The team confirmed rubber in TS3012c ('so we're definitely going for rubber') and the final design in TS3012d still used rubber for the cover and buttons.",
+      "facts_matched": [
+        "rubber"
+      ],
+      "facts_missing": [
+        "kept|still used|remained|survived|final"
+      ],
+      "fact_coverage": 0.5,
+      "correctness": "partially_correct",
+      "citation_validity": 1.0,
+      "evidence_precision": 0.5,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012b",
+        "TS3012c"
+      ],
+      "relevant_meetings": [
+        "TS3012c",
+        "TS3012d"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012b",
+          "quote": "So we agree on the the part that we need to get something on the on the remote to find it somewhere and increase it the durability of of the thing, so The other aspects, we'll just see how what you came up with and what's possible for that budget."
+        },
+        {
+          "meeting_id": "TS3012c",
+          "quote": "The case, it will be the material will be rubber, suppose."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E02",
+      "question": "What power source did TS3012 settle on, and did they adopt the rechargeable option that was discussed?",
+      "agent_answer": "The retrieved transcripts show in TS3012b, Speaker C described a change that: \"It is rechargeable, so we can stick with one instead of two.\"; in TS3012b, Speaker A proposed that: \"Maybe we should what what could be possible is one with rechargeable batteries for example.\"; in TS3012c, Speaker C said that: \"Yeah, but I think this rules out our unit our rechargeable unit.\".",
+      "ground_truth": "They settled on regular batteries in TS3012c; rechargeable batteries were discussed but not adopted because a rechargeable module was not among the options.",
+      "facts_matched": [
+        "rechargeable"
+      ],
+      "facts_missing": [
+        "regular batteries|normal batteries|basic batteries",
+        "not adopted|ruled out|wasn't in the options|no rechargeable"
+      ],
+      "fact_coverage": 0.333,
+      "correctness": "incorrect",
+      "citation_validity": 1.0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012b",
+        "TS3012b",
+        "TS3012c"
+      ],
+      "relevant_meetings": [
+        "TS3012b",
+        "TS3012c"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012b",
+          "quote": "It is rechargeable, so we can stick with one instead of two."
+        },
+        {
+          "meeting_id": "TS3012b",
+          "quote": "Maybe we should what what could be possible is one with rechargeable batteries for example."
+        },
+        {
+          "meeting_id": "TS3012c",
+          "quote": "Yeah, but I think this rules out our unit our rechargeable unit."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E03",
+      "question": "How did TS3012's position on the LCD screen change between meetings b and d?",
+      "agent_answer": "The retrieved transcripts show in TS3012b, Speaker A rejected that: \"I don't think if we if we even use an L_C_D_ screen, we need to, definitely.\"; in TS3012c, Speaker C rejected that: \"It's it's not necessary like an L_C_D_, but it's just it adds something to the design.\"; in TS3012d, Speaker A confirmed that: \"We agreed that we would implement both the L_C_D_ and speech recognition, but I'll get to that in a moment.\".",
+      "ground_truth": "In TS3012b Speaker A wanted to lose the LCD because it was huge and consumed batteries; by TS3012c they considered including it, and in TS3012d it was kept while speech recognition was cut because about ninety percent of customers favoured an LCD.",
+      "facts_matched": [
+        "lcd|l_c_d_|screen"
+      ],
+      "facts_missing": [
+        "include|included|keep|kept|retain|retained",
+        "drop|dropped|lose|lost|considered|initially"
+      ],
+      "fact_coverage": 0.333,
+      "correctness": "incorrect",
+      "citation_validity": 1.0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "relevant_meetings": [
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012b",
+          "quote": "I don't think if we if we even use an L_C_D_ screen, we need to, definitely."
+        },
+        {
+          "meeting_id": "TS3012c",
+          "quote": "It's it's not necessary like an L_C_D_, but it's just it adds something to the design."
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "We agreed that we would implement both the L_C_D_ and speech recognition, but I'll get to that in a moment."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E04",
+      "question": "When and why was speech recognition dropped from TS3012's final design?",
+      "agent_answer": "The retrieved transcripts show in TS3012b, Speaker D proposed that: \"And uh what about speech recognition uh\"; in TS3012d, Speaker A rejected that: \"So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and the separate covers can account for the if people want it, we'll just then we'll do it in black.\"; in TS3012d, Speaker A confirmed that: \"So that's the final product without the speakers, I guess.\".",
+      "ground_truth": "It was dropped in the final meeting TS3012d because the full design cost seventeen euros against a permitted twelve and a half, and the LCD had stronger customer support (about ninety percent versus sixty percent).",
+      "facts_matched": [
+        "speech recognition",
+        "budget|cost|12.50|twelve and a half|17|seventeen"
+      ],
+      "facts_missing": [
+        "drop|dropped|removed|scrapped|cut"
+      ],
+      "fact_coverage": 0.667,
+      "correctness": "partially_correct",
+      "citation_validity": 1.0,
+      "evidence_precision": 0.667,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012b",
+        "TS3012d",
+        "TS3012d"
+      ],
+      "relevant_meetings": [
+        "TS3012c",
+        "TS3012d"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012b",
+          "quote": "And uh what about speech recognition uh"
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "So, generally what I came up with, in order to be cou to to have production cost of twelve and a half Euros, spe scrap speech recognition and the separate covers can account for the if people want it, we'll just then we'll do it in black."
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "So that's the final product without the speakers, I guess."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E05",
+      "question": "What did TS3012 know about finances in meeting c, and what did the final costing in meeting d show?",
+      "agent_answer": "The retrieved transcripts show in TS3012a, Speaker A described a change that: \"Everybody has uh a piece of individual work and a meeting afterwards, so we can share information about So I'm gonna keep this short, since we had a technical problem.\"; in TS3012b, Speaker A confirmed that: \"I want some you should do some trend-watching, because even if we're if we're gonna do those covers and everything, what people really want, that's what we need to know in this phase, because that's gonna be the essential final design that we're gonna come up with.\"; in TS3012c, Speaker A confirmed that: \"So then we'll just have to d uh have to go on, you know, the information that we have to make the make final decisions on uh on a conceptual design.\".",
+      "ground_truth": "In TS3012c they still lacked financial data; in TS3012d the costing showed seventeen euros against a twelve and a half euro budget, forcing them to drop speech recognition and the special colour.",
+      "facts_matched": [],
+      "facts_missing": [
+        "17|seventeen",
+        "12.50|twelve and a half",
+        "speech recognition",
+        "special colour|special color|colour|color"
+      ],
+      "fact_coverage": 0.0,
+      "correctness": "incorrect",
+      "citation_validity": 1.0,
+      "evidence_precision": 0.333,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c"
+      ],
+      "relevant_meetings": [
+        "TS3012c",
+        "TS3012d"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012a",
+          "quote": "Everybody has uh a piece of individual work and a meeting afterwards, so we can share information about So I'm gonna keep this short, since we had a technical problem."
+        },
+        {
+          "meeting_id": "TS3012b",
+          "quote": "I want some you should do some trend-watching, because even if we're if we're gonna do those covers and everything, what people really want, that's what we need to know in this phase, because that's gonna be the essential final design that we're gonna come up with."
+        },
+        {
+          "meeting_id": "TS3012c",
+          "quote": "So then we'll just have to d uh have to go on, you know, the information that we have to make the make final decisions on uh on a conceptual design."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E06",
+      "question": "What happened to TS3012's yellow colour decision when the final budget was applied?",
+      "agent_answer": "The retrieved transcripts show in TS3012b, Speaker A said that: \"Yeah. see how far we can go with it anyway, so And one thing that should be important is that the corporate l colour and slogan are recognisable, which is apparently black and yellow, but\"; in TS3012d, Speaker A confirmed that: \"So it's either one fi just just to get it f just to get it through final, it's either turned into plastic, drop the squishy feel, make it make it more breakable, um or turn it yellow.\"; in TS3012d, Speaker A confirmed that: \"Um we agreed that the colour should be b uh yellow and black.\".",
+      "ground_truth": "Yellow had been agreed and Speaker C wanted a yellow remote, but in TS3012d the special yellow colour was removed for cost reasons; the base unit would be black with custom covers offered separately, while rubber was kept over yellow.",
+      "facts_matched": [
+        "yellow",
+        "black|cover"
+      ],
+      "facts_missing": [
+        "special colour|special color|dropped|removed"
+      ],
+      "fact_coverage": 0.667,
+      "correctness": "partially_correct",
+      "citation_validity": 1.0,
+      "evidence_precision": 0.667,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012b",
+        "TS3012d",
+        "TS3012d"
+      ],
+      "relevant_meetings": [
+        "TS3012c",
+        "TS3012d"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012b",
+          "quote": "Yeah. see how far we can go with it anyway, so And one thing that should be important is that the corporate l colour and slogan are recognisable, which is apparently black and yellow, but"
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "So it's either one fi just just to get it f just to get it through final, it's either turned into plastic, drop the squishy feel, make it make it more breakable, um or turn it yellow."
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "Um we agreed that the colour should be b uh yellow and black."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E07",
+      "question": "What did TS3012 agree to build so a lost remote could be found, and was it still planned in the next meeting?",
+      "agent_answer": "The retrieved transcripts show in TS3012b, Speaker D said that: \"Uh what I al already said is the the uh the remote controls are always lost, but it it's also for people, they want to learn it fast, not uh they want to\"; in TS3012b, Speaker A said that: \"So we agree on the the part that we need to get something on the on the remote to find it somewhere and increase it the durability of of the thing, so The other aspects, we'll just see how what you came up with and what's possible for that budget.\"; in TS3012d, Speaker D said that: \"And the next one uh yeah, when it's lost uh you can find it.\".",
+      "ground_truth": "In TS3012b they agreed to add something to the remote to find it, and by TS3012c they said they were going to implement the beep and flash feature to recover the remote.",
+      "facts_matched": [
+        "find|locate|recover"
+      ],
+      "facts_missing": [
+        "beep",
+        "flash"
+      ],
+      "fact_coverage": 0.333,
+      "correctness": "incorrect",
+      "citation_validity": 1.0,
+      "evidence_precision": 0.667,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012b",
+        "TS3012b",
+        "TS3012d"
+      ],
+      "relevant_meetings": [
+        "TS3012b",
+        "TS3012c"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012b",
+          "quote": "Uh what I al already said is the the uh the remote controls are always lost, but it it's also for people, they want to learn it fast, not uh they want to"
+        },
+        {
+          "meeting_id": "TS3012b",
+          "quote": "So we agree on the the part that we need to get something on the on the remote to find it somewhere and increase it the durability of of the thing, so The other aspects, we'll just see how what you came up with and what's possible for that budget."
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "And the next one uh yeah, when it's lost uh you can find it."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E08",
+      "question": "Which age group did TS3012 target, and what evidence from earlier and later meetings supports that?",
+      "agent_answer": "The retrieved transcripts show in TS3012c, Speaker C said that: \"Of course we have uh a young target group.\".",
+      "ground_truth": "They targeted younger consumers; in TS3012b the market was described as younger than forty, and in TS3012c Speaker A confirmed they were definitely focusing on younger people because that was the main goal.",
+      "facts_matched": [
+        "young|younger",
+        "under forty|target group|target audience|main goal"
+      ],
+      "facts_missing": [],
+      "fact_coverage": 1.0,
+      "correctness": "correct",
+      "citation_validity": 1.0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012c"
+      ],
+      "relevant_meetings": [
+        "TS3012b",
+        "TS3012c"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012c",
+          "quote": "Of course we have uh a young target group."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E09",
+      "question": "When TS3012 had to cut costs in the final meeting, what disagreement arose about rubber versus yellow, and how was it resolved?",
+      "agent_answer": "The retrieved transcripts show in TS3012a, Speaker A said that: \"Or else we'll cut the meeting just cut the meeting short since we're supposed to stop.\"; in TS3012a, Speaker A said that: \"I think we really need to cut the meeting short.\"; in TS3012d, Speaker A confirmed that: \"So it's either one fi just just to get it f just to get it through final, it's either turned into plastic, drop the squishy feel, make it make it more breakable, um or turn it yellow.\".",
+      "ground_truth": "Speaker C suggested losing rubber and taking plastic, but Speaker A favoured keeping rubber because it had more advantages than the yellow colour; the outcome was to keep rubber and drop the special yellow colour.",
+      "facts_matched": [
+        "yellow|colour|color",
+        "keep|kept|drop|dropped|plastic"
+      ],
+      "facts_missing": [
+        "rubber"
+      ],
+      "fact_coverage": 0.667,
+      "correctness": "partially_correct",
+      "citation_validity": 1.0,
+      "evidence_precision": 0.333,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012a",
+        "TS3012a",
+        "TS3012d"
+      ],
+      "relevant_meetings": [
+        "TS3012c",
+        "TS3012d"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012a",
+          "quote": "Or else we'll cut the meeting just cut the meeting short since we're supposed to stop."
+        },
+        {
+          "meeting_id": "TS3012a",
+          "quote": "I think we really need to cut the meeting short."
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "So it's either one fi just just to get it f just to get it through final, it's either turned into plastic, drop the squishy feel, make it make it more breakable, um or turn it yellow."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E10",
+      "question": "Who committed to finding out about rechargeable batteries for TS3012, and what did the team decide about them in the next meeting?",
+      "agent_answer": "The retrieved transcripts show in TS3012b, Speaker A proposed that: \"Maybe we should what what could be possible is one with rechargeable batteries for example.\"; in TS3012b, Speaker C said that: \"Uh you could make a device, but I'm not sure how that uh is possible with the costs, that you can put in normal batteries, rechargeable, but it you're the remote also can act as a recharger.\".",
+      "ground_truth": "Speaker C, the Industrial Designer, said he would try to find that out in TS3012b; in TS3012c the team took regular batteries because a rechargeable module was not among the options.",
+      "facts_matched": [
+        "speaker c|industrial designer",
+        "rechargeable",
+        "regular batteries|normal batteries|basic batteries|not in the options|wasn't in the options"
+      ],
+      "facts_missing": [],
+      "fact_coverage": 1.0,
+      "correctness": "correct",
+      "citation_validity": 1.0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.5,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012b",
+        "TS3012b"
+      ],
+      "relevant_meetings": [
+        "TS3012b",
+        "TS3012c"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012b",
+          "quote": "Maybe we should what what could be possible is one with rechargeable batteries for example."
+        },
+        {
+          "meeting_id": "TS3012b",
+          "quote": "Uh you could make a device, but I'm not sure how that uh is possible with the costs, that you can put in normal batteries, rechargeable, but it you're the remote also can act as a recharger."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "question_id": "E11",
+      "question": "What sales price was TS3012 working with in meeting b, and what production budget constrained the final design in meeting d?",
+      "agent_answer": "The retrieved transcripts show in TS3012a, Speaker A said that: \"The production price, twelve and a half Euros, approximately.\"; in TS3012b, Speaker A proposed that: \"We are going for twenty five Euros sales price, but just try to find out what they're willing to pay for it, because if they're willing to pay more, we could lose a little profit and maybe attract more customers, uh we just have to see what it looks like.\"; in TS3012d, Speaker A described a change that: \"So I think it's the best solution to make those cu custom covers for the design aspect and keep the functionality between of within the th the boundaries of the your f uh your budget.\".",
+      "ground_truth": "In TS3012b the team was going for a twenty five euro sales price; in TS3012d the production budget was twelve and a half euros per remote.",
+      "facts_matched": [
+        "twenty five|25",
+        "12.50|twelve and a half|twelve fifty",
+        "production|budget"
+      ],
+      "facts_missing": [],
+      "fact_coverage": 1.0,
+      "correctness": "correct",
+      "citation_validity": 1.0,
+      "evidence_precision": 0.667,
+      "evidence_recall": 1.0,
+      "meeting_retrieval_recall": 1.0,
+      "decision_state_accuracy": 0.0,
+      "unsupported_claim_rate": 0.0,
+      "retrieved_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012c",
+        "TS3012d"
+      ],
+      "cited_meetings": [
+        "TS3012a",
+        "TS3012b",
+        "TS3012d"
+      ],
+      "relevant_meetings": [
+        "TS3012b",
+        "TS3012d"
+      ],
+      "citations": [
+        {
+          "meeting_id": "TS3012a",
+          "quote": "The production price, twelve and a half Euros, approximately."
+        },
+        {
+          "meeting_id": "TS3012b",
+          "quote": "We are going for twenty five Euros sales price, but just try to find out what they're willing to pay for it, because if they're willing to pay more, we could lose a little profit and maybe attract more customers, uh we just have to see what it looks like."
+        },
+        {
+          "meeting_id": "TS3012d",
+          "quote": "So I think it's the best solution to make those cu custom covers for the design aspect and keep the functionality between of within the th the boundaries of the your f uh your budget."
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "provider": "heuristic",
+  "llm_calls": 0
+}
