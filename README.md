@@ -392,12 +392,13 @@ Runs fully offline with the `heuristic` provider — no API key required.
 
 Real output screenshots from running the commands above:
 
-| Screenshot | Description |
-|------------|-------------|
-| [answers](assets/screenshots/answer.png) | `answer` — all 25 verified answers with citations |
-| [brief](assets/screenshots/brief.png) | `brief --team TS3012` — pre-meeting brief for team TS3012 |
-| [evaluate](assets/screenshots/evaluate.png) | `evaluate` — evaluation results and benchmark metrics |
-| [status](assets/screenshots/status.png) | `status` — provider, record counts, and citation audit |
+| `answer` — all 25 verified answers with citations | `brief --team TS3012` — pre-meeting brief |
+|---------------------------------------------------|------------------------------------------|
+| ![answers](assets/screenshots/answer.png) | ![brief](assets/screenshots/brief.png) |
+
+| `evaluate` — evaluation results and benchmark metrics | `status` — provider, record counts, citation audit |
+|-------------------------------------------------------|---------------------------------------------------|
+| ![evaluate](assets/screenshots/evaluate.png) | ![status](assets/screenshots/status.png) |
 
 ---
 
@@ -451,54 +452,6 @@ python -m pytest tests/integration/ # 9 corpus + regression tests
 
 > Both improvements and regressions are reported honestly in
 > `outputs/evaluation_report.md` and `outputs/final_delivery_report.md`.
-
-## Working agents
-
-The memory system is run by **six agents** in `src/meeting_agent/agents/`, orchestrated by LangGraph `StateGraph`s. Every agent runs offline with the `heuristic` provider (deterministic, **$0.00**, no API key); the Gemini / OpenAI-compatible / local providers are plug-in replacements.
-
-![Working agents](agents_screenshot.svg)
-
-| Agent | File | Role |
-|-------|------|------|
-| RetrievalAgent | `agents/retrieval_agent.py` | Hybrid vector (Chroma, MiniLM-L6, 384-dim) + keyword (FTS5 BM25) search, fused with RRF (`k=60`) |
-| ReasoningAgent | `agents/reasoning_agent.py` | Temporal reasoning: decision lifecycle proposed → confirmed → superseded / unresolved |
-| AnswerAgent | `agents/answer_agent.py` | Citation-first answer generation; LLM or extractive fallback, 1–3 verbatim quotes |
-| BriefingAgent | `agents/briefing_agent.py` | Four-section pre-meeting brief: decisions, changes, open actions, disagreements |
-| CitationAgent | `agents/citation_agent.py` | Deterministic verbatim citation validator — **110/110 quotes verified** (100%) |
-| Researcher | `agents/researcher.py` | Bounded research loop: broaden query + targeted scan, max 2 rounds |
-
-Workflow (per question): **Analyze → Plan → Retrieve → Collect & fuse → Sufficiency gate → [research loop ≤ 2 rounds] → Temporal reasoning → Answer → Citation check → Output** (`answers.json` + `brief.md`).
-
-Results on this run: **100% citation validity** · **60/60 tests passed** · **4 correct / 4 partial / 3 incorrect** of 11 evaluation questions · **68.9% mean fact coverage** · **72.7% decision-state accuracy** · 138 meetings · 35 teams.
-
-**Built by [Muhammad Zain Ul Abideen](https://github.com/mzainulabideendev) — a human implementation, not an AI intern build.**
-
-## Results snapshot
-
-![Results](results_screenshot.svg)
-
-### Real measured data
-
-| Metric | Value | Source |
-|--------|-------|--------|
-| Transcripts ingested | 138 | `outputs/dataset_report.json` |
-| Teams covered | 35 | `outputs/dataset_report.json` |
-| Total words | 676,745 | `outputs/dataset_report.json` |
-| Indexed chunks | 1,594 | `outputs/dataset_report.json` |
-| Chunks per meeting | 11.55 | computed |
-| Ingestion time | 116.8 s (0.85 s/meeting) | `outputs/benchmark.json` |
-| Storage — Chroma | 58.6 MB | `outputs/benchmark.json` |
-| Storage — SQLite | 40.65 MB | `outputs/benchmark.json` |
-| Query latency (mean) | 2.24 s | `outputs/benchmark.json` |
-| Query latency (p50) | 1.06 s | `outputs/benchmark.json` |
-| Query latency (p95) | 13.94 s | `outputs/benchmark.json` |
-| Citation validity | 100% (110/110) | `outputs/citation_audit` |
-| Mean fact coverage | 68.9% (baseline 59.1%) | `outputs/evaluation_results.json` |
-| Decision-state accuracy | 72.7% (baseline 9.1%) | `outputs/evaluation_results.json` |
-| Meeting retrieval recall | 100% | `outputs/evaluation_results.json` |
-| Tests | 60 passed, 0 failed, 0 skipped | `pytest` |
-| Unsupported claim rate | 5.2% | `outputs/evaluation_results.json` |
-| Correct / Partial / Incorrect | 4 / 4 / 3 (of 11) | `outputs/evaluation_results.json` |
 
 ---
 
