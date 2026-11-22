@@ -8,8 +8,6 @@
 
 **138 transcripts · 35 teams · 676,745 words · 100% verbatim citations**
 
-![Results](results_screenshot.svg)
-
 </div>
 
 ---
@@ -389,6 +387,20 @@ python main.py status
 Runs fully offline with the `heuristic` provider — no API key required.
 
 ---
+
+## Screenshots
+
+Real output screenshots from running the commands above:
+
+| Screenshot | Description |
+|------------|-------------|
+| [answers](assets/screenshots/answer.png) | `answer` — all 25 verified answers with citations |
+| [brief](assets/screenshots/brief.png) | `brief --team TS3012` — pre-meeting brief for team TS3012 |
+| [evaluate](assets/screenshots/evaluate.png) | `evaluate` — evaluation results and benchmark metrics |
+| [status](assets/screenshots/status.png) | `status` — provider, record counts, and citation audit |
+
+---
+
 
 ## Testing
 
