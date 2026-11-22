@@ -1,6 +1,6 @@
 # Technical Write-Up — Agentic Meeting Memory
 
-**Author:** implementation for the Catalist Agentic AI Intern build test
+**Author:** Muhammad Zain Ul Abideen — https://github.com/mzainulabideendev
 **Date:** 19 November 2026
 **Corpus:** AMI design-meeting transcripts, 138 files, 35 teams, 676,745 body words
 

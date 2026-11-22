@@ -440,6 +440,27 @@ python -m pytest tests/integration/ # 9 corpus + regression tests
 > Both improvements and regressions are reported honestly in
 > `outputs/evaluation_report.md` and `outputs/final_delivery_report.md`.
 
+## Working agents
+
+The memory system is run by **six agents** in `src/meeting_agent/agents/`, orchestrated by LangGraph `StateGraph`s. Every agent runs offline with the `heuristic` provider (deterministic, **$0.00**, no API key); the Gemini / OpenAI-compatible / local providers are plug-in replacements.
+
+![Working agents](agents_screenshot.svg)
+
+| Agent | File | Role |
+|-------|------|------|
+| RetrievalAgent | `agents/retrieval_agent.py` | Hybrid vector (Chroma, MiniLM-L6, 384-dim) + keyword (FTS5 BM25) search, fused with RRF (`k=60`) |
+| ReasoningAgent | `agents/reasoning_agent.py` | Temporal reasoning: decision lifecycle proposed → confirmed → superseded / unresolved |
+| AnswerAgent | `agents/answer_agent.py` | Citation-first answer generation; LLM or extractive fallback, 1–3 verbatim quotes |
+| BriefingAgent | `agents/briefing_agent.py` | Four-section pre-meeting brief: decisions, changes, open actions, disagreements |
+| CitationAgent | `agents/citation_agent.py` | Deterministic verbatim citation validator — **110/110 quotes verified** (100%) |
+| Researcher | `agents/researcher.py` | Bounded research loop: broaden query + targeted scan, max 2 rounds |
+
+Workflow (per question): **Analyze → Plan → Retrieve → Collect & fuse → Sufficiency gate → [research loop ≤ 2 rounds] → Temporal reasoning → Answer → Citation check → Output** (`answers.json` + `brief.md`).
+
+Results on this run: **100% citation validity** · **60/60 tests passed** · **4 correct / 4 partial / 3 incorrect** of 11 evaluation questions · **68.9% mean fact coverage** · **72.7% decision-state accuracy** · 138 meetings · 35 teams.
+
+**Built by [Muhammad Zain Ul Abideen](https://github.com/mzainulabideendev) — a human implementation, not an AI intern build.**
+
 ## Results snapshot
 
 ![Results](results_screenshot.svg)
